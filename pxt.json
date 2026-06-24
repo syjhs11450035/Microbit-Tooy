@@ -1,14 +1,16 @@
 {
-    "name": "AI Bit Core",
-    "version": "1.0.0",
-    "description": "Clean single-file AI Bit runtime",
-    "dependencies": {
-        "core": "*"
-    },
-    "files": [
-        "main.ts"
-    ],
-    "supportedTargets": [
-        "microbit"
-    ]
+  "name": "Microbit-Tooy",
+  "version": "1.0.0",
+  "description": "Microbit 多硬體整合工具（8x8 / nRF24L01 / WS2812 / 蜂鳴器）",
+  "dependencies": {
+    "core": "*",
+    "microphone": "*",
+    "radio": "*"
+  },
+  "files": [
+    "main.ts"
+  ],
+  "supportedTargets": [
+    "microbit"
+  ]
 }
