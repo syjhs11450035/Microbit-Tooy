@@ -1,35 +1,36 @@
-# 🤖 AI Bit Core (Micro:bit Extension)
+# 🤖 AI Bit Core (Clean Version)
 
-AI Bit 是一個單檔式 micro:bit OS-like runtime extension。
+Single-file MakeCode extension for micro:bit.
 
 ---
 
-# 🚀 功能
+# 🚀 Features
 
-## 🟩 Matrix（5x5 顯示）
-- 設定像素
-- 清除畫面
-- 顯示 framebuffer
+## 🟩 Matrix (5x5)
+- set pixel
+- clear screen
+- framebuffer system
 
 ## 🔊 Audio
-- 播放音調
-- 嗶聲
-- 音波掃描（簡易合成）
+- tone playback
+- beep function
 
-## 📡 Net
-- UART 通訊
-- ESP32 未來擴展準備
+## 📡 Net (UART ready)
+- send data
+- receive data
+- ESP32 bridge ready
 
-## ⚡ Flash System
-- 儲存 script
-- 模擬快閃記憶體
+## ⚡ Flash Memory
+- store script
+- retrieve script
+- clear memory
 
 ## 🤖 Executor (VM)
-支援 JSON script：
+Run JSON scripts:
 
 ```json
 [
-  {"op":"text","v":"HI"},
+  {"op":"text","v":"HELLO"},
   {"op":"wait","v":500},
   {"op":"tone","f":440,"t":200}
 ]

@@ -1,7 +1,7 @@
 {
     "name": "AI Bit Core",
     "version": "1.0.0",
-    "description": "Single-file AI Bit runtime extension (Chinese blocks)",
+    "description": "Clean single-file AI Bit runtime",
     "dependencies": {
         "core": "*"
     },
@@ -10,6 +10,5 @@
     ],
     "supportedTargets": [
         "microbit"
-    ],
-    "preferredEditor": "tsprj"
+    ]
 }
