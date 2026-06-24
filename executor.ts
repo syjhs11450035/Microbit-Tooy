@@ -1,6 +1,6 @@
 namespace aibit {
 
-    //% block="run script %data"
+    //% block="執行腳本 %data"
     export function run(data: string) {
 
         let script = JSON.parse(data)
@@ -13,15 +13,15 @@ namespace aibit {
                 basic.showString(script[i].v)
             }
 
-            if (op == "wait") {
+            else if (op == "wait") {
                 basic.pause(script[i].v)
             }
 
-            if (op == "pixel") {
+            else if (op == "pixel") {
                 led.plot(script[i].x, script[i].y)
             }
 
-            if (op == "tone") {
+            else if (op == "tone") {
                 music.playTone(script[i].f, script[i].t)
             }
         }

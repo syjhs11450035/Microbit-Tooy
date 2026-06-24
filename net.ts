@@ -1,18 +1,16 @@
 namespace aibit {
 
-    let buffer = ""
-
-    //% block="send net data %data"
+    //% block="發送資料 %data"
     export function send(data: string) {
-        serial.writeString(data + "\n")
+        serial.writeLine(data)
     }
 
-    //% block="read net data"
+    //% block="讀取資料"
     export function read(): string {
         return serial.readString()
     }
 
-    //% block="on net receive"
+    //% block="收到資料時"
     export function onReceive(handler: (msg: string) => void) {
         serial.onDataReceived("\n", function () {
             handler(serial.readString())
