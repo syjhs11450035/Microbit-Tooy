@@ -1,18 +1,15 @@
 {
     "name": "AI Bit Core",
     "version": "1.0.0",
-    "description": "AI Bit OS-like extension",
+    "description": "Single-file AI Bit runtime extension (Chinese blocks)",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "main.ts",
-        "matrix.ts",
-        "audio.ts",
-        "net.ts",
-        "executor.ts",
-        "flash.ts",
-        "zh.ts"
+        "main.ts"
     ],
-    "supportedTargets": ["microbit"]
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
