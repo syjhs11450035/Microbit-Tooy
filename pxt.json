@@ -1,0 +1,19 @@
+{
+    "name": "aibit",
+    "version": "0.0.1",
+    "description": "AI Bit Core Extension",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "matrix.ts",
+        "audio.ts",
+        "net.ts",
+        "executor.ts"
+    ],
+    "testFiles": [],
+    "supportedTargets": [
+        "microbit"
+    ]
+}
